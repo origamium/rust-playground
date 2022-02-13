@@ -1,5 +1,5 @@
 fn main() {
-    println!("Hello, world!");
+    println!("{}", gcd(70, 40));
 }
 
 fn gcd(mut n: u64, mut m: u64) -> u64 {
